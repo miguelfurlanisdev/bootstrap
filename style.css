@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.banner{
+    background-color: rgb(187, 187, 187);
+    padding: 100px 20px;
+}
+
+.banner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.banner p{
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card-title{
+    font-weight: bold;
+    color: blue;
+}
+
+.btn-primary{
+    background-color: rgba(255, 0, 0, 0.825);
+    border: none;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin-top: 5px;
+}
